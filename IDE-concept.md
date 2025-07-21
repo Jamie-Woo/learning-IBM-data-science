@@ -76,6 +76,12 @@
 
 ---
 
+## Model Building
+- **SPSS Modeler**
+- **SAS enterprise miner**
+  
+---
+
 ## Model Deployment
 - 모델 배포. 다른 개발자가 사용할 수 있게 API로 전환함
 - **Apache PredictionIO**  
@@ -109,10 +115,10 @@
 - **GitHub**
 
 ## Code Development and execution
-- **Jupyter IDE** 
-- **RStudio**
-- **Microsoft Visual Studio**
+- **Jupyter IDE**  : 커널을 통해 다양한 프로그래밍 언어 제공. 캡슐화
+- **RStudio** : R 언어 기반, 프로그래밍, 실행, 디버깅, 원격 데이터 액세스, 데이터 탐색과 시각화를 하나의 도구로 통합
+- **Microsoft Visual Studio** : 여러 프로그램 언어를 지원하는 IDE
 - **Pycharm** 
-- **Spyder**
+- **Spyder** : R studio의 시스템을 모방하여 python으로 변환하고자 한 것. 그럼에도 jupyter를 더 많이 사용함
 - **Anaconda Navigator**
   
