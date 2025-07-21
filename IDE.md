@@ -7,7 +7,8 @@
 
 ## Data Asset Management
 - 데이터를 정리하고 관리하는 플랫폼
-- Apache Atlas, Egeria and Informatica(IBM)
+- **Apache Atlas**
+- **Egeria and Informatica(IBM)**
 
 ---
 
