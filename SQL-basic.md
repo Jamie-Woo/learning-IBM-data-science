@@ -15,8 +15,7 @@
 |-------|-------|
 | CREATE TABLE   | CREATE TABLE employee ( employee_id char(2) PRIMARY KEY, <br>first_name varchar(30) NOT NULL, <br>mobile int);  |
 | ALTER TABLE - ADD COLUMN  | 옵션 1. ALTER TABLE employee ADD income bigint; <br>옵션 2. ALTER TABLE employee ADD COLUMN income bigint;   |
-| ALTER TABLE - ALTER COLUMN  | MySQL: ALTER TABLE employee MODIFY mobile CHAR(20);
-<br>DB2: ALTER TABLE employee ALTER COLUMN mobile SET DATA TYPE CHAR(20);  |
+| ALTER TABLE - ALTER COLUMN  | MySQL: ALTER TABLE employee MODIFY mobile CHAR(20); <br>DB2: ALTER TABLE employee ALTER COLUMN mobile SET DATA TYPE CHAR(20);  |
 | ALTER TABLE - DROP COLUMN   | ALTER TABLE employee <br>DROP COLUMN mobile ;  |
 | ALTER TABLE - RENAME COLUMN  | MySQL: ALTER TABLE employee CHANGE COLUMN first_name name VARCHAR(255); <br>DB2: ALTER TABLE employee RENAME COLUMN first_name TO name; |
 | TRUNCATE TABLE   | MySQL: TRUNCATE TABLE employee; <br>DB2: TRUNCATE TABLE employee IMMEDIATE ;  |
