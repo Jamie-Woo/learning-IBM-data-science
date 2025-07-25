@@ -11,6 +11,6 @@
 | UPDATE   | UPDATE placeofinterest <br>SET name = 'Niagara Falls' <br>WHERE name = "Niagara Waterfalls";  |
 | DELETE   | DELETE FROM placeofinterest <br>WHERE city IN ('Rome','Vienna'); |
 
-- Database practicing application : **phpMyAdmin** (MySQL)
+- **phpMyAdmin** (MySQL)
   - PHP로 작성된 오픈 소스 웹 기반 MySQL/MariaDB 관리 도구
   - 웹 기반 GUI로 터미널 없이도 데이터베이스를 직관적으로 관리 가능 
