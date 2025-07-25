@@ -10,3 +10,5 @@
 | INSERT   | INSERT INTO placeofinterest (name,type,city,country,airport) <br>VALUES('Niagara Waterfalls','Nature','Toronto','Canada','Pearson');  |
 | UPDATE   | UPDATE placeofinterest <br>SET name = 'Niagara Falls' <br>WHERE name = "Niagara Waterfalls";  |
 | DELETE   | DELETE FROM placeofinterest <br>WHERE city IN ('Rome','Vienna'); |
+
+- Database practicing application : phpMyAdmin (MySQL)
