@@ -23,4 +23,11 @@
 
 - **phpMyAdmin** (MySQL)
   - PHP로 작성된 오픈 소스 웹 기반 MySQL/MariaDB 관리 도구
-  - 웹 기반 GUI로 터미널 없이도 데이터베이스를 직관적으로 관리 가능 
+  - 웹 기반 GUI로 터미널 없이도 데이터베이스를 직관적으로 관리 가능
+ 
+- **Cloud Database** 종류
+  - **IBM Db2**
+  - Databases for PostgreSQL
+  - Oracle Database Cloud Service
+  - Microsoft Azure SQL Database
+  - Amazon Relational Database Services(RDS)
