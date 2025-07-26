@@ -21,6 +21,14 @@
 | TRUNCATE TABLE   | MySQL: TRUNCATE TABLE employee; <br>DB2: TRUNCATE TABLE employee IMMEDIATE ;  |
 | DROP TABLE   | DROP TABLE employee ;  |
 
+| 명령어 | 예시 |
+|-------|-------|
+| LIKE   | SELECT f_name , l_name FROM employees WHERE address <br>LIKE '%Elgin,IL%';  |
+| BETWEEN | SELECT * FROM employees WHERE salary <br>BETWEEN 40000 AND 80000;  |
+| ORDER BY  | SELECT f_name, l_name, dep_id FROM employees <br>ORDER BY dep_id DESC, l_name; |
+| GROUP BY | SELECT dep_id, COUNT(*) FROM employees <br>GROUP BY dep_id;  |
+| HAVING | SELECT DEP_ID, COUNT(*) AS "NUM_EMPLOYEES", AVG(SALARY) AS "AVG_SALARY" FROM EMPLOYEES GROUP BY DEP_ID <br>HAVING count(*) < 4 <br>ORDER BY AVG_SALARY; |
+
 ---
 
 - **phpMyAdmin** (MySQL)
