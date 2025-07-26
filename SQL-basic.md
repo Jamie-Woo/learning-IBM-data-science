@@ -6,10 +6,10 @@
 | WHERE   | SELECT * <br>FROM placeofinterest <br>WHERE city = 'Rome' ;   |
 | COUNT   | SELECT COUNT(country) <br>FROM placeofinterest <br>WHERE country='Canada';  |
 | DISTINCT   | SELECT DISTINCT country <br>FROM placeofinterest <br>WHERE type='historical';  |
-| LIMIT   | SELECT * <br>FROM placeofinterest <br>WHERE airport="pearson" <br>LIMIT 5; |
-| INSERT   | INSERT INTO placeofinterest (name,type,city,country,airport) <br>VALUES('Niagara Waterfalls','Nature','Toronto','Canada','Pearson');  |
-| UPDATE   | UPDATE placeofinterest <br>SET name = 'Niagara Falls' <br>WHERE name = "Niagara Waterfalls";  |
-| DELETE   | DELETE FROM placeofinterest <br>WHERE city IN ('Rome','Vienna'); |
+| LIMIT   | SELECT * <br>FROM placeofinterest <br>WHERE airport="pearson" <br>**LIMIT** 5; |
+| INSERT   | **INSERT INTO** placeofinterest (name,type,city,country,airport) <br>VALUES('Niagara Waterfalls','Nature','Toronto','Canada','Pearson');  |
+| UPDATE   | **UPDATE** placeofinterest <br>SET name = 'Niagara Falls' <br>WHERE name = "Niagara Waterfalls";  |
+| DELETE   | **DELETE FROM** placeofinterest <br>WHERE city IN ('Rome','Vienna'); |
 
 | 명령어 | 예시 |
 |-------|-------|
@@ -23,11 +23,11 @@
 
 | 명령어 | 예시 |
 |-------|-------|
-| LIKE   | SELECT f_name , l_name FROM employees WHERE address <br>LIKE '%Elgin,IL%';  |
-| BETWEEN | SELECT * FROM employees WHERE salary <br>BETWEEN 40000 AND 80000;  |
-| ORDER BY  | SELECT f_name, l_name, dep_id FROM employees <br>ORDER BY dep_id DESC, l_name; |
-| GROUP BY | SELECT dep_id, COUNT(*) FROM employees <br>GROUP BY dep_id;  |
-| HAVING | SELECT DEP_ID, COUNT(*) AS "NUM_EMPLOYEES", AVG(SALARY) AS "AVG_SALARY" FROM EMPLOYEES GROUP BY DEP_ID <br>HAVING count(*) < 4 <br>ORDER BY AVG_SALARY; |
+| LIKE   | SELECT f_name , l_name FROM employees WHERE address <br>**LIKE** '%Elgin,IL%';  |
+| BETWEEN | SELECT * FROM employees WHERE salary <br>**BETWEEN** 40000 AND 80000;  |
+| ORDER BY  | SELECT f_name, l_name, dep_id FROM employees <br>**ORDER BY** dep_id DESC, l_name; |
+| GROUP BY | SELECT dep_id, COUNT(*) FROM employees <br>**GROUP BY** dep_id;  |
+| HAVING | SELECT DEP_ID, COUNT(*) AS "NUM_EMPLOYEES", AVG(SALARY) AS "AVG_SALARY" FROM EMPLOYEES GROUP BY DEP_ID <br>**HAVING** count(*) < 4 <br>ORDER BY AVG_SALARY; |
 
 ---
 
