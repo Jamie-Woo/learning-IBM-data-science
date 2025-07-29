@@ -63,6 +63,10 @@
   - Microsoft Azure SQL Database
   - Amazon Relational Database Services(RDS)
 
+---
+## **DB-API?**  
+- RDB에 접근하기 위한 python 표준 API
+
 - **API's used by popular SQL-based DBMS systems**
 
 | Application | SQL API |
@@ -70,6 +74,7 @@
 | **MySQL**  |  MySQL C API |
 | **PostgreSQL**  | psycopg2  |
 | **IBM DB2**  | ibm_db  |
+| **MongoDB**  | PyMongo  |
 | **SQL Server**  |  dblib API |
 | **Database access for <br>Microsoft Windows OS**  |  ODBC |
 
