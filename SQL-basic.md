@@ -62,3 +62,13 @@
   - Oracle Database Cloud Service
   - Microsoft Azure SQL Database
   - Amazon Relational Database Services(RDS)
+
+- **API's used by popular SQL-based DBMS systems**
+| Application | SQL API |
+|-------|-------|
+| **MySQL**  |  MySQL C API |
+| **PostgreSQL**  | psycopg2  |
+| **IBM DB2**  | ibm_db  |
+| **SQL Server**  |  dblib API |
+| **Database access for <br>Microsoft Windows OS**  |  ODBC |
+
