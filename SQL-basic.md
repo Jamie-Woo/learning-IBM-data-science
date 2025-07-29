@@ -47,7 +47,7 @@
 | FROM_DAYS()  | SELECT FROM_DAYS(DATEDIFF(CURRENT_DATE, date_column)) FROM table;  |
 |  DATE_ADD() | SELECT DATE_ADD(date, INTERVAL 3 DAY);  |
 | DATE_SUB()  | SELECT DATE_SUB(date, INTERVAL 3 DAY);  |
-| Subquery  | SELECT emp_id, f_name, l_name, salary <br>FROM employees <br>where salary < (SELECT AVG(salary) <br>FROM employees);  |
+| Subquery  | SELECT emp_id, f_name, l_name, salary <br>FROM employees <br>where salary < (SELECT AVG(salary) FROM employees);  |
 | Implicit Inner Join <br>(암묵적 내부 조인)  | SELECT * FROM employees, jobs where employees.job_id = jobs.job_ident;  |
 | Implicit Cross Join  | SELECT * FROM employees, jobs;  |
 ---
