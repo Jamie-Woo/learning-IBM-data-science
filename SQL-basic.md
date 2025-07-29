@@ -29,6 +29,31 @@
 | GROUP BY | SELECT dep_id, COUNT(*) FROM employees <br>**GROUP BY** dep_id;  |
 | HAVING | SELECT DEP_ID, COUNT(*) AS "NUM_EMPLOYEES", AVG(SALARY) AS "AVG_SALARY" FROM EMPLOYEES GROUP BY DEP_ID <br>**HAVING** count(*) < 4 <br>ORDER BY AVG_SALARY; |
 
+| 명령어 | 예시 |
+|-------|-------|
+| COUNT  | SELECT COUNT(dep_id) FROM employees;  |
+| AVG  |  SELECT AVG(salary) FROM employees; |
+|  SUM | SELECT SUM(salary) FROM employees;  |
+| MIN  | SELECT MIN(salary) FROM employees;  |
+| MAX  | SELECT MAX(salary) FROM employees; |
+|  ROUND | SELECT ROUND(salary) FROM employees;  |
+|  LENGTH | SELECT LENGTH(f_name) FROM employees;  |
+| UCASE  | SELECT UCASE(f_name) FROM employees;  |
+|  LCASE | SELECT LCASE(f_name) FROM employees;  |
+| DISTINCT  | SELECT DISTINCT UCASE(f_name) FROM employees;  |
+| DAY  | SELECT DAY(b_date) FROM employees where emp_id = 'E1002';  |
+| CURRENT_DATE  |  SELECT CURRENT_DATE; |
+| DATEDIFF()  | SELECT DATEDIFF(CURRENT_DATE, date_column) FROM table;  |
+| FROM_DAYS()  | SELECT FROM_DAYS(DATEDIFF(CURRENT_DATE, date_column)) FROM table;  |
+|  DATE_ADD() | SELECT DATE_ADD(date, INTERVAL 3 DAY);  |
+| DATE_SUB()  | SELECT DATE_SUB(date, INTERVAL 3 DAY);  |
+| Subquery  | SELECT emp_id, f_name, l_name, salary
+<br>FROM employees
+<br>where salary
+< (SELECT AVG(salary)
+<br>FROM employees);  |
+| Implicit Inner Join <br>(암묵적 내부 조인)  | SELECT * FROM employees, jobs where employees.job_id = jobs.job_ident;  |
+| Implicit Cross Join  | SELECT * FROM employees, jobs;  |
 ---
 
 - **phpMyAdmin** (MySQL)
